@@ -269,15 +269,15 @@ h3 { font-size: 1.1rem; font-weight: 600; margin: 0 0 .4rem; line-height: 1.35; 
 /* ---------- Publications ---------- */
 .pubs { list-style: none; margin: 0; padding: 0; counter-reset: pub; }
 .pub {
-  display: grid; grid-template-columns: 220px 1fr;
+  display: grid; grid-template-columns: 290px 1fr;
   gap: 1.4rem; padding: 1.5rem 0;
   border-top: 1px solid var(--rule-soft);
 }
 .pub:last-child { border-bottom: 1px solid var(--rule-soft); }
 .pub-fig img {
   width: 100%; height: auto; display: block;
-  max-height: 230px; object-fit: contain; object-position: top left;
-  border: 1px solid var(--rule); background: #fff; padding: .3rem;
+  max-height: 250px; object-fit: contain; object-position: top center;
+  border: 1px solid var(--rule); background: #fff; padding: .25rem;
 }
 .pub-meta h3 { margin: 0 0 .35rem; font-size: 1.06rem; line-height: 1.4; }
 .authors {
@@ -377,7 +377,7 @@ h3 { font-size: 1.1rem; font-weight: 600; margin: 0 0 .4rem; line-height: 1.35; 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .contact-grid { grid-template-columns: 1fr; }
-  .pub { grid-template-columns: 170px 1fr; gap: 1.1rem; }
+  .pub { grid-template-columns: 220px 1fr; gap: 1.1rem; }
 }
 
 @media (max-width: 720px) {
