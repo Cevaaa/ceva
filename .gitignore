@@ -1,0 +1,18 @@
+# Private source material — CV PDFs, raw photos, planning notes.
+# Not part of the published site.
+docs/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python artefacts (from the figure-conversion helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
